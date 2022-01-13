@@ -1,0 +1,160 @@
+/* RESET */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: var(--typo-primary);
+    margin: 0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+  
+/* MAIN HEADER */
+
+#main-header{
+    height: 100vh;
+    background-image: url("img/Maiz-Home-Page-Banner_phone.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.container {
+    padding: 1rem 3rem 1rem 2rem;
+}
+#main-header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#nav-right a:not(.btn) {
+    margin: 0 5px ;
+    color: white;
+    font-weight: 600;
+    display: none;
+    
+}
+
+#nav-right {
+    padding-top: 1rem;
+}
+
+.home {
+    border-bottom: var(--color) solid 3px;
+}
+
+.btn {
+    background-color: var(--color);
+    font-weight: 800;
+    padding: .5rem 1rem;
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgba(251, 168, 24, 0.4);
+}
+
+/* HERO IMAGE */
+
+.container2 {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+h1 {
+    color: var(--color);
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.p1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.box-right {
+    margin:auto;
+    max-width: 500PX;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+/* SECTION 2*/
+
+.sct2-left p {
+    color: black;!important
+}
+/* MEDIA QUERY */
+@media screen and (min-width: 1024px) {
+    #main-header{
+        height: 100vh;
+        background-image: url("img/Banner-1-new1-1366x800-1-com.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+    .container2 {
+        display:flex;
+        justify-content:end;
+    }
+    h1 {
+        color: var(--color);
+        font-weight: 800;
+        font-size: 3rem;
+    }
+    
+    .p1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .box-right {
+        margin-right: 200px;
+        max-width: 500PX;
+        padding-top: 4rem;
+        text-align: left;
+    }
+
+    .container {
+        padding: 1rem 3rem 1rem 2rem;
+    }
+    #main-header nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #nav-right a:not(.btn) {
+        margin: 0 5px ;
+        color: white;
+        font-weight: 600;
+        display: inline-block;
+        
+    }
+    
+    #nav-right {
+        padding-top: 1rem;
+    }
+    
+    .home {
+        border-bottom: var(--color) solid 3px;
+    }
+    
+    .btn {
+        background-color: var(--color);
+        font-weight: 800;
+        padding: .5rem 1rem;
+        color: black;
+    }
+    
+    .btn:hover {
+        background-color: rgba(251, 168, 24, 0.4);
+    }
+
+
+}

@@ -1,0 +1,785 @@
+/*
+Theme Name: Flatsome
+Theme URI: http://flatsome.uxthemes.com/
+Author: UX-Themes
+Author URI: http://www.uxthemes.com/
+Description: Multi-Purpose Responsive WooCommerce Theme
+Version: 3.10.0
+Text Domain: flatsome
+License: http://themeforest.net/licenses
+License URI: http://themeforest.net/licenses
+*/
+
+
+/***************
+All custom CSS should be added to Flatsome > Advanced > Custom CSS,
+or in the style.css of a Child Theme.
+***************/
+li#menu-item-2070 {
+    display: none;
+}
+
+li#menu-item-1967 {
+    display: none;
+}
+.catringIcons .row.welcome {
+    max-width: 75%!important;
+}
+
+
+.footer-widgets.footer.footer-2.dark a.icon.button.circle.is-outline.facebook.tooltip.tooltipstered {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.footer-widgets.footer.footer-2.dark a.icon.button.circle.is-outline.instagram.tooltip.tooltipstered {
+    float: left;
+	padding-top: 6px;
+	line-height:inherit;
+}
+.mobileslidercarsoul {
+    display: none;
+}
+
+.carasoulslidertext {
+    margin-top: 50px;
+}
+
+.slidercarsoul {
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+}
+
+table.Nutrition { 
+	width: 84%; 
+	border-collapse: collapse; 
+	margin:15px auto;
+	}
+table.Nutrition thead{
+border-bottom: 3px solid #000;
+    border-top: 3px solid #000;
+}
+.Nutrition th { 
+	background: #e8880a; 
+	color: #000; 
+	text-align:center;
+	}
+.Nutrition th span{
+font-size: 13px;
+    font-weight: 600;
+    line-height: 14px;
+}
+.Nutrition td, th { 
+	color: #000;
+	padding: 10px 10px 10px 0px;
+	border-bottom: 2px solid #ccc; 
+	text-align: center; 
+	font-size: 17px;
+	line-height: 24px;
+	text-transform:none;
+	}
+.Nutrition td:nth-child(1) {text-align:left; }
+
+@media only screen and (min-width: 768px) {
+.sliderdesktphide ol.flickity-page-dots {
+    display: none;
+}
+div#gap-500456001 {
+    padding: 0;
+}
+.sliderdesktphide button.flickity-button.flickity-prev-next-button.next {
+    display: none;
+}
+	
+.sliderdesktphide .slider-nav-outside .flickity-prev-next-button.previous {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 849px) {
+	.carasoulslidertext .gallery {
+    display: none;
+}
+
+.mobileslidercarsoul {
+    display: block;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+h1 {font-size: 36px !important;}
+	.add .gap-element{display: none !important;}
+	.pick {
+    max-width: 90% !important;
+}
+}
+
+@media only screen and (max-width: 849px) {
+	span.pp_line {
+    display: none;
+}
+	.footer-widgets.footer.footer-2.dark a.icon.button.circle.is-outline.facebook.tooltip.tooltipstered {
+		display:none;
+	}
+	.footer-widgets.footer.footer-2.dark a.icon.button.circle.is-outline.instagram.tooltip.tooltipstered {
+    float: none;
+		padding-top:20px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-widgets.footer.footer-2.dark a.icon.button.circle.is-outline.instagram.tooltip.tooltipstered {
+			padding-top:20px;
+	}
+	table.Nutrition thead {
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+}
+.Nutrition td, th {
+	word-spacing: 0px;
+    letter-spacing: 0px;
+    padding: 4px 0px 4px 0px;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+    line-height: 16px;}
+	table.Nutrition {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px auto;
+}
+	.low_c_m {padding: 0 15px;}
+	.menu_sec1 h5 br{display:none;}
+	.menu_sec1 h5{padding: 7px 0px 5px 0;}
+	.low_col {
+    padding: 0 15px !important;
+}
+	.menu_sec1 .mob_low_row{max-width: 100% !important;}
+	span.sta {
+    font-size: 12px !important;
+}
+	.Nutrition th span {
+		font-size: 13px !important;}
+	
+	
+}
+@media only screen and (max-width: 375px) {
+	.maiz_hm h2 {
+    font-size: 16px !important;
+}
+	.banner .maiz_1st {
+    padding-top: 600px !important;
+}
+	.header-button-2 .button {
+    font-size: 9px;
+    padding: 3px 4px !important;
+    line-height: 18px;
+}
+}
+  
+	/*.dark p {
+		font-size: 16px !important;}*/
+	
+span.sta {
+	font-size: 18px !important;}
+.Nutrition hr{border-left: 3px solid #000;
+    height: 48px;
+    width: 3px;
+    float: left;
+    margin: 0;
+opacity: 1;
+}
+
+/* TBS CSS START */
+    
+    .generalInfoContainer.hidden {
+        display: none;
+    }
+    
+    .generalInfoContainer {
+        color: #000;
+        width: 100%;
+        padding-left: 7%;
+        padding-right: 7%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .generalInfoGoals {
+        width: 100%;
+        margin-top: 1.2em;
+        margin-bottom: 1.2em;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 600;
+        font-size: 21px;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        text-rendering: optimizeSpeed;
+    }
+    
+    .generalInfoTableDiv {
+        padding: 20px 0px;
+        margin: auto;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    .generalInfoTable {
+        border-spacing: 8px 0;
+    }
+    
+    .generalInfoTable tr th {
+        padding-left: 24px;
+        padding-right: 24px;
+        color: #FFF;
+        background-color: #000;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .generalInfoTable tr td {
+        padding-left: 24px;
+        padding-right: 24px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    .generalInfoTable tr td.center {
+        text-align: center;
+    }
+    
+    .generalInfoTable tr.odd td {
+        background-color: #dfdfdf;
+    }
+    
+    .generalInfoDietGuidelinesDiv {
+        width: 100%;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .generalInfoDietGuidelineDiv {
+        width: 25%;
+        text-align: center;
+    }
+    
+    .generalInfoDietGuidelineDiv img {
+        max-width: 100px;
+    }
+    
+    .generalInfoDietGuidelinesText {
+        padding: 10px;
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        text-rendering: optimizeSpeed;
+    }
+    
+    .calculaorTitle {
+        font-size: 36px;
+        color: #000;
+        letter-spacing: 1px;
+        text-align: center;
+        font-family: 'blenda-script' !important;
+        width: 100%;
+        text-rendering: optimizeSpeed;
+        font-weight: 500;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .mealsContainer {
+        margin: auto;
+    }
+    
+    .mealsTitle {
+        margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 18px;
+        color: #000;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        text-rendering: optimizeSpeed;
+    }
+    
+    .meals {
+        padding-left: 7%;
+        padding-right: 7%;
+        position: relative;
+    }
+    
+    .mealsRow {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        width: 100%;
+        padding-left: 12%;
+        padding-right: 12%;
+        padding-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #eef0ef;
+    }
+    
+    .mealContainer {
+        width: 20%;
+        margin: auto;
+        position: relative;
+        min-height: 250px;
+        padding: 10px;
+    }
+    
+    .mealContainer:hover {
+        cursor: pointer;
+    }
+    
+    .mealInfoDiv {
+        position: absolute;
+        text-align: center;
+        font-weight: 500;
+        width: 100%;
+        margin: auto;
+        font-family: "Montserrat", sans-serif;
+        color: #000;
+        transition: all 0.3s;
+        padding-top: 0px;
+    }
+    
+    .mealInfoDiv::after {
+        content: '';
+        width: 0px;
+        height: 1px;
+        display: block;
+        background: black;
+        transition: 0.2s;
+    }
+    
+    .mealContainer:hover .mealInfoDiv {
+        padding-top: 6px;
+    }
+    
+    .mealContainer:hover .mealInfoDiv::after {
+        width: 100%;
+    }
+    
+    .mealImageDiv {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .mealImageDiv img {
+        transition: all 0.3s;
+        width: 100%;
+        max-width: 230px;
+    }
+    
+    .mealContainer:hover .mealImageDiv img {
+        transform: scale(1.1);
+    }
+    /* MEAL DETAIL DIV */
+    
+    .mealDetailContainer.hidden {
+        display: none;
+    }
+    
+    .mealDetailContainer {
+        width: 100%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-bottom: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .mealDetailInfoDiv {
+        width: 75%;
+    }
+    
+    .mealDetailInfoTitleDiv {
+        display: flex;
+        width: 110%;
+    }
+    
+    .mealDetailInfoTitle {
+        font-size: 36px;
+        color: #000;
+        letter-spacing: 1px;
+        text-align: left;
+        font-family: 'blenda-script' !important;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: .2em;
+        text-rendering: optimizeSpeed;
+        font-weight: 500;
+    }
+    
+    .mealDetailBackToMeals {
+        white-space: nowrap;
+        cursor: pointer;
+        text-align: center;
+        font-weight: 500;
+        width: fit-content;
+        margin: auto;
+        font-family: "Montserrat", sans-serif;
+        color: #000;
+    }
+    
+    .mealDetailBackToMeals::after {
+        content: '';
+        width: 0px;
+        height: 1px;
+        display: block;
+        background: black;
+        transition: 0.2s;
+    }
+    
+    .mealDetailBackToMeals:hover::after {
+        width: 100%;
+    }
+    
+    .mealDetailGeneralDiv {
+        width: 80%;
+        border-bottom-style: double;
+    }
+    
+    .mealDetailGeneralImageDiv {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        max-width: 25%;
+    }
+    
+    .mealDetailIngredientRow {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .mealDetailIngredientItem {
+        position: relative;
+        border-style: solid;
+        border-width: 1px;
+        width: 23%;
+        margin: 1%;
+        cursor: pointer;
+    }
+    
+    .mealDetailIngredientItemInfoDiv {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .mealDetailIngredientItemHoverDiv {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #FFF8;
+        transition: opacity 0.2s;
+        z-index: 1;
+    }
+    
+    .mealDetailIngredientItemSelectDiv {
+        position: absolute;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #FFF;
+        background-color: gray;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+    
+    .mealDetailIngredientItemSelectDiv i {
+        opacity: 0;
+        transition: opacity 0.2s;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        color: white;
+    }
+    
+    .mealDetailIngredientItem:hover .mealDetailIngredientItemHoverDiv {
+        opacity: 1;
+    }
+    
+    .mealDetailIngredientItem.selected .mealDetailIngredientItemHoverDiv {
+        opacity: 1;
+    }
+    
+    .mealDetailIngredientItem.selected .mealDetailIngredientItemHoverDiv .mealDetailIngredientItemSelectDiv {
+        background-color: #9dbc4f;
+    }
+    
+    .mealDetailIngredientItem.selected .mealDetailIngredientItemHoverDiv .mealDetailIngredientItemSelectDiv i {
+        opacity: 1;
+    }
+    
+    .mealDetailIngredientItemTitle {
+        position: absolute;
+        min-height: 60px;
+        left: 0;
+        right: 0;
+        padding: 8px 8px;
+        font-weight: 500;
+        font-size: 18px;
+        color: #000;
+        background-color: transparent;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        text-rendering: optimizeSpeed;
+    }
+    
+    .mealDetailIngredientItemImageDiv {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        max-width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .mealDetailIngredientItemCalories {
+        position: absolute;
+        min-height: 20px;
+        bottom: 0;
+        width: 100%;
+        background-color: #000;
+        color: white;
+        margin-bottom: 0px;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        text-rendering: optimizeSpeed;
+        padding: 6px 0px;
+    }
+    
+    .mealDetailNutritionInfoDiv {
+        width: 25%;
+        height: fit-content;
+        background-color: #dcdcdc;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 110px;
+        max-height: 82vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    
+    .mealDetailNutritionTitle {
+        background-color: #000;
+        color: #FFF;
+        padding: 10px;
+        font-weight: 600;
+        font-size: 21px;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        text-rendering: optimizeSpeed;
+    }
+    
+    #pie_container {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .mealDetailNutritionBox {
+        border-bottom-style: double;
+        border-bottom-color: #000;
+    }
+    
+    .mealDetailNutritionSpan {
+        position: absolute;
+        right: 28px;
+    }
+    
+    .mealDetailNutritionBox {
+        font-family: "Montserrat", sans-serif;
+        text-rendering: optimizeSpeed;
+        padding: 16px 8px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .mealDetailNutritionCaloriesDiv {
+        font-size: 14px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .mealDetailNutritionTotCircle {
+        width: 16px;
+        height: 16px;
+        margin-right: 15px;
+        display: inline-block;
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+    
+    .mealDetailNutritionTotCircle.orange1 {
+        background-color: #e6a43c;
+    }
+    
+    .mealDetailNutritionTotCircle.orange2 {
+        background-color: #c7893c;
+    }
+    
+    .mealDetailNutritionTotCircle.orange3 {
+        background-color: #eec77e;
+    }
+    
+    .mealDetailNutritionTot {
+        font-size: 11px;
+        font-weight: 600;
+        color: #423c3c;
+    }
+    
+    .mealDetailNutritionTot p {
+        font-size: 11px;
+    }
+    
+    .mealDetailNutritionPart {
+        margin-left: 35px;
+        font-size: 11px;
+        font-weight: 400;
+    }
+    
+    .mealDetailNutritionInfoDiv.collapsed .mealDetailNutritionBox .mealDetailNutritionPart {
+        display: none;
+    }
+    
+    .mealDetailNutritionInfoDiv.collapsed .mealDetailNutritionTextDiv .mealDetailNutritionText {
+        display: none;
+    }
+    
+    .mealDetailNutritionTextDiv {
+        text-align: center;
+        font-size: 11px;
+        width: 80%;
+        margin-left: 10%;
+        padding: 16px 0;
+    }
+    
+    .mealDetailNutritionTextDiv p {
+        font-size: 11px;
+    }
+    
+    .mealDetailNutritionText {
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    
+    .mealDetailButton {
+        width: 100%;
+        margin-top: 5px;
+        background-color: #000;
+        color: white;
+        font-weight: 600;
+        font-size: 12px;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        text-rendering: optimizeSpeed;
+    }
+    
+    @media (min-width: 768px) and (max-width: 992px) {
+        .generalInfoDietGuidelineDiv {}
+        .mealContainer {
+            width: 33%;
+        }
+        .mealDetailInfoDiv {
+            width: 70%;
+        }
+        .mealDetailNutritionInfoDiv {
+            width: 30%;
+        }
+        .mealDetailGeneralImageDiv {
+            max-width: 50%;
+        }
+        .mealDetailIngredientItem {
+            width: 31%;
+        }
+        .mealDetailIngredientItemImageDiv {
+            padding-top: 40px;
+            padding-bottom: 30px;
+            max-width: 50%;
+        }
+    }
+    
+    @media (min-width: 576px) and (max-width: 768px) {
+        .generalInfoDietGuidelineDiv {
+            width: 50%;
+        }
+        .mealContainer {
+            width: 50%;
+        }
+        .mealDetailInfoDiv {
+            width: 60%;
+        }
+        .mealDetailNutritionInfoDiv {
+            width: 40%;
+        }
+        .mealDetailGeneralImageDiv {
+            max-width: 75%;
+        }
+        .mealDetailIngredientItem {
+            width: 48%;
+        }
+    }
+    
+    @media (max-width: 576px) {
+        .generalInfoDietGuidelineDiv {
+            width: 100%;
+        }
+        .mealContainer {
+            width: 100%;
+        }
+        .mealDetailInfoDiv {
+            width: 100%;
+        }
+        .mealDetailNutritionInfoDiv {
+            width: 100%;
+            max-height: unset;
+        }
+        .mealDetailGeneralDiv {
+            width: 100%;
+        }
+        .mealDetailInfoTitleDiv {
+            width: 100%;
+        }
+        .mealDetailGeneralImageDiv {
+            max-width: 100%;
+        }
+        .mealDetailIngredientItem {
+            width: 48%;
+        }
+    }
+    
+    .display-inline-flex {
+        display: inline-flex;
+    }
+    
+    .category-food {
+        width: 100%;
+    }
+    
+    .category-food ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .category-food li {
+        width: 230px;
+    }
+    
+    .category-food li img {
+        width: 100%;
+    }
+    /* TBS CSS END */
